@@ -129,7 +129,7 @@ const SUPABASE_URL = "sb_publishable_mIvW9iFB9vjfXFyOpIwUQQ_DHCUxqPy";
 const SUPABASE_KEY = "sb_secret_gF1yPhUSYTAZ3GjTZPzaxQ_F4SsYCAo";
 
 const supabaseClient = window.supabase.createClient(
-    SUPABASE_URL,sb_publishable_mIvW9iFB9vjfXFyOpIwUQQ_DHCUxqPy
+    SUPABASE_URL,sb_publishable_mIvW9iFB9vjfXFyOpIwUQQ_DHCUxqPy,
     SUPABASE_KEY,sb_secret_gF1yPhUSYTAZ3GjTZPzaxQ_F4SsYCAo
 );
 
@@ -281,4 +281,3 @@ supabaseClient.auth.onAuthStateChange((event, session) => {
 
 </body>
 </html>
-
